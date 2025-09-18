@@ -122,6 +122,7 @@ namespace MeasurementApp.ViewModels
                 new SelectionSort<MyKeyValue<int, string>>(),
                 new MergeSort<MyKeyValue<int, string>>(),
                 new ParallelPEESort<MyKeyValue<int, string>>(),
+                new ParallelMergeSort<MyKeyValue<int, string>>(),
                 // Add more here!
             };
         private readonly string[] availableArrayPreparation = {
