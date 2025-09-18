@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComputingPi\ComputingPi.csproj" />
+    <ProjectReference Include="..\EditDistance\EditDistance.csproj" />
+    <ProjectReference Include="..\HeatSimulation\HeatSimulation.csproj" />
+    <ProjectReference Include="..\Mandelbrot\Mandelbrot.csproj" />
+    <ProjectReference Include="..\ScanAndFold\ScanAndFold.csproj" />
+    <ProjectReference Include="..\Sorting\Sorting.csproj" />
+    <ProjectReference Include="..\Utilities\Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
